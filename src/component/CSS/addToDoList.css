@@ -1,0 +1,33 @@
+.input-task {
+
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px 2px rgb(145, 141, 141);
+    margin-bottom: 50px;
+    min-width: 300px;
+}
+
+.input-task>.row {
+    padding: 10px
+}
+
+.form-control {
+    margin: 15px 0px;
+    width: 100%;
+
+    height: 40px;
+}
+
+
+button {
+    width: 100%;
+
+    height: 40px;
+    text-align: center;
+    margin: 15px 0px;
+    margin-right: 0px;
+
+
+}

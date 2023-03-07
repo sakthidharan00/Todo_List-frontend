@@ -1,0 +1,14 @@
+.container-fluid {
+    height: 60px;
+   
+
+}
+
+.container-fluid>h3 {
+    color: white;
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 1px;
+    margin-bottom: 50px;
+}
