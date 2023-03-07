@@ -1,1 +1,1 @@
-Toddo Mern Stack project
+Todo List Mern Stack project
