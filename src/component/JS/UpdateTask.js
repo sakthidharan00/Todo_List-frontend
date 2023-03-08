@@ -11,7 +11,7 @@ function UpdateTask(props) {
 
     const update = () => {
       
-        axios.put(`https://todolist-backend-bnn4.onrender.com/task/update/${task._id}`, {
+        axios.put(`https://todolist-backend-bnn4.onrender.com/home/task/update/${task._id}`, {
             _id: task._id,
             task: Newtask,
             isComplete: task.isComplete
