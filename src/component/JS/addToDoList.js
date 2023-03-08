@@ -12,7 +12,7 @@ function AddTodo(props) {
             return
         }
         else {
-            axios.post("http://localhost:8080/home/task/add", { task: AddTask, isComplete: false }).then((val) => {
+            axios.post("https://todolist-backend-bnn4.onrender.com/home/task/add", { task: AddTask, isComplete: false }).then((val) => {
                 setAddTask("");
                 props.addTodo(val.data);
 

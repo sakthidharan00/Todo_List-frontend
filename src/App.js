@@ -14,7 +14,7 @@ function App() {
 
   //getting data form server side
   useEffect(() => {
-    axios.get("http://localhost:8080/home/task/send").then((val) => {
+    axios.get("https://todolist-backend-bnn4.onrender.com/home/task/send").then((val) => {
       setFinalTask(val.data);
 
 

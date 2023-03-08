@@ -17,7 +17,7 @@ function TodoList(props) {
 
         const RemoveTask = (value) => {
 
-            axios.delete(`http://localhost:8080/home/task/delete/${value._id}`).then((doc) => {
+            axios.delete(`https://todolist-backend-bnn4.onrender.com/home/task/delete/${value._id}`).then((doc) => {
                 props.removeTask(doc.data);
 
             }).catch((e) => { console.log(e.message) })
@@ -25,7 +25,7 @@ function TodoList(props) {
         }
         const taskStatus = (val) => {
 
-            axios.put(`http://localhost:8080/home/task/update/${val._id}`, {
+            axios.put(`https://todolist-backend-bnn4.onrender.com/home/task/update/${val._id}`, {
                 _id: val._id,
                 task: val.task,
                 isComplete:true
